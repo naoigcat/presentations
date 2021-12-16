@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Xcode
+
+## User settings
+xcuserdata/
+
+## Compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.mobileprovision
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+.build
+.swiftpm
+
+# Markdown
+!.markdownlint.yml
