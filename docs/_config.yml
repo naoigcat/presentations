@@ -1,2 +1,10 @@
+repository: naoigcat/presentations
+url: https://naoigcat.github.io/presentations
+title: Presentations
+author: naoigcat
+github_username: naoigcat
+description: >-
+  Don' t be afraid of making mistakes.
 exclude:
   - .gitignore
+theme: minima
