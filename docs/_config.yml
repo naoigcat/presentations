@@ -8,3 +8,4 @@ description: >-
 exclude:
   - .gitignore
 theme: minima
+google_analytics: UA-158986608-1
