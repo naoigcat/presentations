@@ -9,7 +9,3 @@ preview:
 .PHONY: generate
 generate:
 	docker run --rm --init -itv ${PWD}:/home/marp/app marpteam/marp-cli --server false --output docs .
-
-.PHONY: clean
-clean:
-	find docs -type d -regex 'docs/[0-9]*' | xargs rm -rf
