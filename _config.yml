@@ -5,7 +5,7 @@ author: naoigcat
 github_username: naoigcat
 description: >-
   Anyone who has never made a mistake has never tried anything new.
-exclude:
-  - .gitignore
+source: ./docs
+destination: ./_site
 theme: minima
 google_analytics: UA-158986608-1

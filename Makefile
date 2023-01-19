@@ -1,6 +1,6 @@
 .PHONY: serve
 serve:
-	docker run --rm --init -itv ${PWD}/docs:/srv/jekyll -p 8080:4000 jekyll/jekyll:pages jekyll serve
+	docker run --rm --init -itv ${PWD}:/src/site -p 4000:4000 naoigcat/github-pages
 
 .PHONY: preview
 preview:
