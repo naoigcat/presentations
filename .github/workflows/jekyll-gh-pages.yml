@@ -22,14 +22,11 @@ jobs:
         with:
           node-version: 18
       - name: Build
-        run: npx @marp-team/marp-cli@1.7.0 --server false --output docs
+        run: npx @marp-team/marp-cli@1.7.0 --server false --output _posts
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./docs
-          destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
   deploy:

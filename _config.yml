@@ -1,11 +1,16 @@
-repository: naoigcat/presentations
-url: https://naoigcat.github.io/presentations
 title: Presentations
+timezone: Asia/Tokyo
+url: https://naoigcat.github.io/presentations
+repository: naoigcat/presentations
 author: naoigcat
 github_username: naoigcat
 description: >-
   Anyone who has never made a mistake has never tried anything new.
-source: ./docs
-destination: ./_site
+permalink: "/:year:month:day/:title"
+exclude:
+  - src
+  - LICENSE.md
+  - Makefile
+  - README.md
 theme: minima
 google_analytics: UA-158986608-1

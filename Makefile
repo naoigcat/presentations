@@ -8,4 +8,5 @@ preview:
 
 .PHONY: generate
 generate:
-	docker run --rm --init -itv ${PWD}:/home/marp/app marpteam/marp-cli --server false --output docs . || :
+	rm -fr _posts && \
+	docker run --rm --init -itv ${PWD}:/home/marp/app marpteam/marp-cli --server false --output _posts . || :
